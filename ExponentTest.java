@@ -1,14 +1,9 @@
 import static org.junit.Assert.assertEquals;
 
-import java.beans.Transient;
-
-//import org.junit.BeforeEach;
 import org.junit.Test;
 
 
 public class ExponentTest {
-    
-    //@BeforeEach
     
 
     @Test
