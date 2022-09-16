@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculator {
+public class Calculator {
     
     public static void main(String[] args) {
         int number1, number2, functionType;
@@ -12,7 +12,7 @@ public class calculator {
         System.out.println("Please enter two integers, separated by a space: ");
         number1 = in.nextInt();
         number2 = in.nextInt();
-
+        in.close();
         if (functionType == 1) {
             Exponential exp = new Exponential();
             result = exp.computeExponent(number1, number2);
